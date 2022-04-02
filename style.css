@@ -187,7 +187,7 @@ nav {
 
 /*end of service box*/
 
-#title{
+#title {
     padding: 100px 0 20px;
     text-align: center;
 }
@@ -196,6 +196,34 @@ nav {
     text-transform: uppercase;
     font-size: 80px;
 }
+
 #title p {
     font-size: 40px;
+}
+
+/*segment watch*/
+#segments {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.right-segment {
+    width: 30%;
+    padding: 20px;
+}
+.right-segment h1 {
+    font-size: 25px;
+}
+.right-segment p {
+    font-size: 20px;
+}
+
+.left-segment {
+    width: 70%;
+}
+
+.right-segment .segment-box {
+    height: 33%;
+    margin-bottom: 20px;
 }
