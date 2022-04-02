@@ -131,3 +131,14 @@ nav {
     filter: invert(100%) sepia(0%) saturate(1811%) hue-rotate(336deg) brightness(103%) contrast(103%);
 }
 
+#left,#right {
+    width: 50px;
+}
+#slider-content{
+    width: 980px;
+    align-self: end;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
